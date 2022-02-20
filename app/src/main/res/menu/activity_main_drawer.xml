@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_content"
+            android:icon="@drawable/ic_menu_content"
+            android:title="模式总览"/>
+        <item
+            android:id="@+id/nav_generalize"
+            android:icon="@drawable/ic_menu_generalize"
+            android:title="模式概括"/>
+        <item
+            android:id="@+id/nav_umlimages"
+            android:icon="@drawable/ic_menu_images"
+            android:title="UML图例"/>
+        <item
+            android:id="@+id/nav_code"
+            android:icon="@drawable/ic_menu_code"
+            android:title="代码示例"/>
+    </group>
+
+    <item android:title="通讯">
+        <menu>
+            <item
+                android:id="@+id/nav_conact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="联系我们"/>
+        </menu>
+    </item>
+
+</menu>
